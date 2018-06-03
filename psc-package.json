@@ -1,11 +1,11 @@
 {
   "name": "purescript-idiomatic-node-process",
-  "set": "psc-0.11.7",
-  "source": "https://github.com/purescript/package-sets.git",
+  "set": "master",
+  "source": "https://github.com/bklaric/package-sets.git",
   "depends": [
-    "psci-support",
-    "console",
-    "eff",
-    "prelude"
+    "effect",
+    "prelude",
+    "maybe",
+    "nullable"
   ]
 }
