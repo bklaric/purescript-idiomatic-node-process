@@ -2,6 +2,6 @@
 
 exports.lookupEnvImpl = function (variableName) {
     return function () {
-        process.env[variableName]
+        return process.env[variableName]
     }
 }
