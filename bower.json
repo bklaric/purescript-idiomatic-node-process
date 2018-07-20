@@ -1,0 +1,31 @@
+{
+  "name": "purescript-idiomatic-node-process",
+  "homepage": "https://github.com/bklaric/purescript-idiomatic-node-process",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bklaric/purescript-idiomatic-node-process.git"
+  },
+  "authors": [
+    "Branimir Klarić <branimir.klaric.bk@gmail.com>"
+  ],
+  "description": "An idiomatic wrapper for Node's Process API.",
+  "main": "",
+  "keywords": [
+    "purescript",
+    "node",
+    "process"
+  ],
+  "license": "AGPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purescript-effect": "^2.0.0",
+    "purescript-maybe": "^4.0.0",
+    "purescript-nullable": "^4.0.0"
+  }
+}
